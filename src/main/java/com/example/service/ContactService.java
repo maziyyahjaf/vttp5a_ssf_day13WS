@@ -92,6 +92,8 @@ public class ContactService {
 
         Path directoryPath = Paths.get(dataDir);
         List<Path> pathList = new ArrayList<>(); // if pathList is null, Thymeleaf will throw a parsing error
+
+        // instead of looping through file paths,loop through the users?
         
         // ensure that service method listAllContactFilePath
         // correctly initializes the list even if the directory is empty
